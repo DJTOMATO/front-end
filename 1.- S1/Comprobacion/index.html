@@ -1,0 +1,92 @@
+<!-- Creando un comentario en HTML -->
+<!-- HTML:5 Genera estructura basica automaticamente-->
+<!DOCTYPE html> <!-- Siempre incluye etiqueta DOCTYPE e indica el tipo de archivo-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!--Enlace hacia la pagina de estilo de boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body><!-- etiqueta de apertura del body-->
+    <!-- barra de navegacion o navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Bootcamp</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!--etiquetas para titulos H1,H2,H3,H4,H5,H6-->
+    <h1 class="text-center mt-5 mb-5">Bill Mollison</h1>
+    <hr>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium amet architecto veniam perspiciatis atque, cupiditate quasi quia sed adipisci dolore odit hic beatae inventore error iste illum a ut tempora.</p>
+        <p>Esto es otro parrafo</p>
+    <hr>
+    <p class="ms-5">
+        <b>NOMBRE:</b> Bruce Charles Mollison
+    </p>
+    <p class="ms-4"><b>FECHA DE NACIMIENTO:</b>04/MAY/1928</p>
+    <p class="ms-3"><b>TELEFONO:</b> 1232456789</p>
+    <p class="ms-2"><b>RUT: 27000800-K</b></p>
+    <hr>
+
+    <!--lista ordenada-->
+    <ol>
+        <li>Registro</li>
+        <li>Registro2</li>
+        <li>Registro3</li>
+    </ol>
+
+    <!--lista no ordenada-->
+    <h4>ANTECEDENTES ACADEMICOS</h2>
+    <ul>
+        <li>Universidad de Tasmania</li>
+    </ul>
+
+    <!--lista no ordenada-->
+    <h3>ANTECEDENTES LABORALES</h2>
+    <ul>
+        <li>
+            <i>CSIRO:</i> Bíologo
+        </li>
+        <li><i>Universidad de Tasmania:</i> Desarrollador</li>
+    </ul>
+
+    <!--lista no ordenada-->
+    <h3 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">ANTECEDENTES LABORALES</h3>
+    <ul>
+        <li><p>Permaculture Once</p></li>
+        <li>Right Livelihood Award</li>
+        <li>Institulo de Permacultura</li>
+        <li>Premio Nacional Sernior de Australia e Icono Australiano</li>
+    </ul>
+    <p class="text-end me-5">
+        Para tener más información, puedes dirigirte a <a href="https://google.com" target="_blank">Google</a> 
+    </p>
+
+    <!--Javascript o bootstrap bundle, bootstrap popper-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body> <!-- etiqueta de cierre-->
+</html>
